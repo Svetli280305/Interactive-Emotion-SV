@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 126
+  controlID: 85
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 41
+  controlID: 86
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 80
+  controlID: 87
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,15 +325,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Play Scene
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\syotov2021\Documents\Interactive-Emotion-SV\Over and
-    Over
+  m_LastProjectPath: C:\InteractiveEmotionSV\Over and Over
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 22410000
-    m_LastClickedID: 16674
-    m_ExpandedIDs: 000000001841000000ca9a3b
+    m_SelectedIDs: f8420000
+    m_LastClickedID: 17144
+    m_ExpandedIDs: 00000000f242000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000018410000
+    m_ExpandedIDs: 00000000f2420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -388,7 +387,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -484,7 +483,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aefaffff54fbffff
+      m_ExpandedIDs: c0f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -544,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.4669194, y: 0.4794529, z: -6.980996}
+    m_Target: {x: 0.114512324, y: 6.460877, z: -8.796488}
     speed: 2
-    m_Value: {x: -7.4669194, y: 0.4794529, z: -6.980996}
+    m_Value: {x: 0.114512324, y: 6.460877, z: -8.796488}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -597,9 +596,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.228401
+    m_Target: 13.53403
     speed: 2
-    m_Value: 6.228401
+    m_Value: 13.53403
   m_Ortho:
     m_Target: 1
     speed: 2
