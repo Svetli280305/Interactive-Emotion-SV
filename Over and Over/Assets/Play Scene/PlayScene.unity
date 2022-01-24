@@ -513,8 +513,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de80d906630c4874983a8db999c9b19a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentInterObj: {fileID: 0}
-  currentInterObjScript: {fileID: 0}
+  currentInterObj: {fileID: 1760693687}
+  currentInterObjScript: {fileID: 1760693688}
 --- !u!1 &1760693687
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   talks: 1
-  itemNeeded: {fileID: 0}
+  itemNeeded: {fileID: 1420698414}
   message: Run
 --- !u!212 &1760693689
 SpriteRenderer:

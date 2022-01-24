@@ -11,7 +11,7 @@ public class PlayerInteraction : MonoBehaviour
     {
 
 
-        if (Input.GetKeyDown("f ") && currentInterObj)
+        if (Input.GetKeyDown(KeyCode.F) && currentInterObj)
         {
             Debug.Log("F is pressed");
              //Check to see if this object talks and has a message
