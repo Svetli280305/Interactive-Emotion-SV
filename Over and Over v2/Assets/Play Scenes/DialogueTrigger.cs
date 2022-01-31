@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
+    bool active = false;
+
     public Dialogue dialogue;
     public void TriggerDialogue()
     {
@@ -12,14 +14,37 @@ public class DialogueTrigger : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (active == true)
         {
-            TriggerDialogue();
-            
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                TriggerDialogue();
+
+            }
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                FindObjectOfType<DialogueManager>().DisplayNextSentence();
+            }
         }
-        if (Input.GetKeyDown(KeyCode.G))
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Is in trigger");
+        if (other.gameObject.tag == "Player")
         {
-            FindObjectOfType<DialogueManager>().DisplayNextSentence();
+
+            active = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        Debug.Log("Is in trigger");
+        if (other.gameObject.tag == "Player")
+        {
+
+            active = false;
+            FindObjectOfType<DialogueManager>().EndDialogue();
         }
     }
 }
