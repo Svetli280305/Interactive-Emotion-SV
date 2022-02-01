@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     bool isOnGround = true;
     public float checkRadius = 1f;
     public float jumpForce = 300f;
+    Animator myAnim;
 
 
 
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        myAnim = GetComponent<Animator>();
         //Find the rigidbody2D component that is attached to the same object as this script
         playerObject = GetComponent<Rigidbody2D>();
     }
@@ -26,6 +28,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        myAnim.SetFloat("speed", Input.GetAxis("Horizontal"));
         //Create a 'float' that will be equal to the players horizontal input
         //float movementValueX = Input.GetAxis("Horizontal") * movementSpeed;
         float movementValueX = Input.GetAxis("Horizontal");
