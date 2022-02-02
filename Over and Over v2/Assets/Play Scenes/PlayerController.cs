@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 300f;
     Animator myAnim;
 
+    public bool isInForeground = true;
+
 
 
     //Ceate a reference to the Rigidbody2D so we can manipulate it
@@ -28,6 +30,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+        {
+            isInForeground = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))
+        {
+            isInForeground = true;
+        }
+
         myAnim.SetFloat("speed", Input.GetAxis("Horizontal"));
         //Create a 'float' that will be equal to the players horizontal input
         //float movementValueX = Input.GetAxis("Horizontal") * movementSpeed;
