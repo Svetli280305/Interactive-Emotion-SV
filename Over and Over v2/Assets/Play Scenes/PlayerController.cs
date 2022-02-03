@@ -66,6 +66,7 @@ public class PlayerController : MonoBehaviour
         if (isOnGround == true)
         {
             playerObject.AddForce(new Vector2(0.0f, jumpForce));
+            myAnim.SetTrigger("Jump");
         }
     }
 
