@@ -703,6 +703,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1101634919}
+  xOffset: 0
+  yOffset: 0
+  leftmax: -10000
+  rightmax: 10000
 --- !u!1001 &1101634918
 PrefabInstance:
   m_ObjectHideFlags: 0

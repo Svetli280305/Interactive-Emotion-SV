@@ -245,6 +245,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1420698414}
+  xOffset: 0
+  yOffset: 0
+  leftmax: -10000
+  rightmax: 1000000
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
